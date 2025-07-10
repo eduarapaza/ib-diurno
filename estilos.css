@@ -1,6 +1,23 @@
-h1{
-    color: #f08b07;
+body {
+  background: #eee;
+  padding: 0;
+  margin: 0;
 }
-body{
-    background: #bebebd;
+
+.cabecera {
+  /* border: 1px solid blue; */
+  display: flex;
+  gap: 5px;
+  /* justify-content: space-around; */
+}
+a:hover {
+  color: rgb(3, 94, 94);
+  background: #afaeaa;
+}
+
+a {
+  /* border: 1px solid red; */
+  color: #595858;
+  text-decoration: none;
+  padding: 0, 5rem;
 }
