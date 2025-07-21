@@ -1,34 +1,62 @@
 /*
-selectores{estilos}
-------------
+selectore{estilos}
 etiqueta{}
 .clase{}
-#id{    
+#id{
+
 }*/
 
-body {
-    background: #efeeee;
-    padding: 0;
-    margin: 0;
+body{
+         background-color:#afaeae;
+         width: 700px;
+     padding: 0;
+    margin: auto;
+    
 }
 
-
-.cabecera {
-    /* border: 2px solid blue; */
+.cabecera{
+        /* border: 2px solid blue;*/
     display: flex;
     gap: 5px;
     /* justify-content: space-between; */
-
+    
 }
 
-a{
     /* border: 1px solid red; */
-    color: #595858;
-    text-decoration: none;
-    padding: 0.5rem;
-}
+    
+    
 
 a:hover{
-    color: rgb(17, 143, 143);
-    background: #afaeae;
+         color: rgb(17, 143, 143);
+     background-color: #afaeae;
+
 }
+
+ 
+#perfil{
+      display: flex;
+      flex-direction: row;
+    align-items: center;
+    /* justtify-content: center; */
+    
+}
+img{
+border: 1px solid green;  
+    width: 70px;
+    border-radius: 50%;
+
+}
+
+span{
+    border: 2px solid rgb(192, 74, 215);
+   /* padding: 10px; */
+   padding: 7px 15px; 
+  /* padding: 5px 15px 40px 100px; */
+    
+  border-radius: 1.5rem;
+  background-color: rgb(139, 235, 177);
+  color: rgb(3, 77, 42);
+  margin-left: 15px;
+  
+}
+
