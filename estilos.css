@@ -6,10 +6,15 @@ etiqueta{}
 #id{    
 }*/
 
-body {
-    background: #efeeee;
+body{
+    background: efeeee;
     padding: 0;
-    margin: 0;
+
+
+/* limitar el tamaño */
+width: 400px;
+/* centrado de contenido automatico */
+margin: auto;
 }
 
 
@@ -31,4 +36,58 @@ a{
 a:hover{
     color: rgb(17, 143, 143);
     background: #afaeae;
+}
+
+.cuerpo{
+    border: 1px solid blue;
+}
+
+#perfil{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*justify-content: center; */
+}
+
+img{
+    border: 1px solid green;
+    width: 70px;
+    border-radius: 50%;
+    /* background: blue; */
+}
+ 
+
+
+#perfil span{
+    border: 2px solid green;
+   /* padding: 10px; */
+   padding: 7px 15px; 
+  /* padding: 5px 15px 40px 100px; */
+
+  border-radius: 1.5rem;
+  background: #adecad;
+  color: green;
+  margin-left: 15px;
+
+}
+
+p span{
+    color: #ffd000;
+}
+
+.cuerpo{
+    margin-top: 70px
+}
+
+button{
+    padding: 5px;
+    border-radius: 1rem;
+    border-color: rgb(198, 196, 196);
+    
+}
+
+button:hover {
+    background: black;
+    color: white;
 }
