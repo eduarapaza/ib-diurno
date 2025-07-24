@@ -2,6 +2,10 @@ body {
   background: #eee;
   padding: 0;
   margin: 0;
+  /* limitar tamaño */
+  width: 400px;
+  /* centrado de contenido automatico */
+  margin: auto;
 }
 
 .cabecera {
@@ -22,11 +26,11 @@ a {
   padding: 0, 5rem;
 }
 .cuerpo{
-border: 1px solid blue;
-
+/* border: 1px solid blue; */
+margin-top: 80px;
 }
 #perfil{ 
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -36,15 +40,30 @@ border: 1px solid blue;
 
 img{
   width: 70px;
-  border: 1px solid rgb(88, 2, 2);
+  /* border: 1px solid rgb(88, 2, 2); */
   border-radius: 50%;
   background: paleturquoise;
 }
-span{
-border: 2px solid rebeccapurple;
+#perfil span{
+  border-radius: 3rem;
+ border: 2px solid rebeccapurple; 
 padding: 7px 15px;
-border-radius: 1.5rem;
+/* border-radius: 1.5rem; */
 background:greenyellow;
 color: green;
 margin-left: 15px;
+}
+p span{
+color: rgb(124, 124, 5);
+}
+button{
+  padding:5px;
+  border-radius: 3rem;
+border-color: rgb(198,196,196);
+
+}
+
+button:hover {
+background: black;
+  color: white;
 }
