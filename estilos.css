@@ -1,34 +1,62 @@
-/*
-selectores{estilos}
-------------
-etiqueta{}
-.clase{}
-#id{    
-}*/
-
 body {
-    background: #efeeee;
-    padding: 0;
+    background: #e4e4e4; /* fondo gris claro más suave */
+    font-family: Arial, sans-serif;
     margin: 0;
 }
 
-
 .cabecera {
-    /* border: 2px solid blue; */
     display: flex;
     gap: 5px;
-    /* justify-content: space-between; */
-
+    justify-content: center; /* mejor alineación horizontal */
+    background-color: #333;
+    padding: 10px;
 }
 
-a{
-    /* border: 1px solid red; */
-    color: #595858;
+a {
+    color: white;
     text-decoration: none;
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    transition: 0.3s ease;
+    border-radius: 5px;
 }
 
-a:hover{
-    color: rgb(17, 143, 143);
-    background: #afaeae;
+a:hover {
+    color: cyan;
+    background: rgba(0, 255, 255, 0.1); /* efecto de brillo suave */
+    text-shadow: 0 0 5px cyan; /* "resplandor" */
+}
+
+.cuerpo {
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 20px;
+    max-width: 800px;
+    margin: 30px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#perfil {
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 70px;
+    border-radius: 50%;
+    background: #0077cc;
+    border: none;
+}
+
+span {
+    border: 2px solid green;
+    padding: 8px 12px;
+    color: green;
+    font-weight: bold;
+    background-color: #f0fff0;
+    border-radius: 4px;
 }
